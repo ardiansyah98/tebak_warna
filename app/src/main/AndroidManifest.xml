@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.unj.pgpaud.guesswhat">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".WarnaMerahActivity"
+            android:theme="@style/NoActionBarGame" />
+        <activity
+            android:name=".WarnaBiruActivity"
+            android:theme="@style/NoActionBarGame" />
+        <activity
+            android:name=".WarnaCokelatActivity"
+            android:theme="@style/NoActionBarGame" />
+        <activity
+            android:name=".WarnaHijauActivity"
+            android:theme="@style/NoActionBarGame" />
+        <activity
+            android:name=".WarnaKuningActivity"
+            android:theme="@style/NoActionBarGame" />
+        <activity
+            android:name=".WarnaHitamActivity"
+            android:theme="@style/NoActionBarGame" />
+        <activity
+            android:name=".WarnaUnguActivity"
+            android:theme="@style/NoActionBarGame" />
+        <activity
+            android:name=".WarnaAbuAbuActivity"
+            android:theme="@style/NoActionBarGame" />
+        <activity
+            android:name=".WarnaOranyeActivity"
+            android:theme="@style/NoActionBarGame" />
+        <activity
+            android:name=".WarnaPingActivity"
+            android:theme="@style/NoActionBarGame" />
+        <activity
+            android:name=".GameOverActivity"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".WinActivity"
+            android:theme="@style/NoActionBar" />
+        <activity android:name=".TutorialActivity"></activity>
+    </application>
+
+</manifest>
